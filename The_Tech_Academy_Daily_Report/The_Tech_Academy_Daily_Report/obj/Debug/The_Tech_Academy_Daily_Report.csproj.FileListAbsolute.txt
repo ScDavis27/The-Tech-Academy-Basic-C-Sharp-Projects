@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\The_Tech_Academy_Daily_Report\The_Tech_Academy_Daily_Report\bin\Debug\The_Tech_Academy_Daily_Report.exe.config
+C:\Users\Student\source\repos\The_Tech_Academy_Daily_Report\The_Tech_Academy_Daily_Report\bin\Debug\The_Tech_Academy_Daily_Report.exe
+C:\Users\Student\source\repos\The_Tech_Academy_Daily_Report\The_Tech_Academy_Daily_Report\bin\Debug\The_Tech_Academy_Daily_Report.pdb
+C:\Users\Student\source\repos\The_Tech_Academy_Daily_Report\The_Tech_Academy_Daily_Report\obj\Debug\The_Tech_Academy_Daily_Report.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\The_Tech_Academy_Daily_Report\The_Tech_Academy_Daily_Report\obj\Debug\The_Tech_Academy_Daily_Report.exe
+C:\Users\Student\source\repos\The_Tech_Academy_Daily_Report\The_Tech_Academy_Daily_Report\obj\Debug\The_Tech_Academy_Daily_Report.pdb
+C:\Users\Student\source\repos\The_Tech_Academy_Daily_Report\The_Tech_Academy_Daily_Report\obj\Debug\The_Tech_Academy_Daily_Report.csprojAssemblyReference.cache
