@@ -13,7 +13,7 @@ class Program
         Console.WriteLine("Please select an index of the array:");
         int selection = Convert.ToInt32(Console.ReadLine());
 
-        if (selection > 3)
+        if (selection > 3 || selection < 0)
         {
             Console.WriteLine("Please try again. Select an index between 0 and 3");
             Console.ReadLine();
@@ -30,7 +30,7 @@ class Program
         Console.WriteLine("Please select an index of the array:");
         int selection1 = Convert.ToInt32(Console.ReadLine());
 
-        if (selection1 > 4)
+        if (selection1 > 4 || selection < 0)
         {
             Console.WriteLine("Please try again. Select an index between 0 and 4");
             Console.ReadLine();
@@ -50,7 +50,7 @@ class Program
         Console.WriteLine("Hello, please select an index of the pokemon array:");
         int selection2 = Convert.ToInt32(Console.ReadLine());
 
-        if (selection2 > 4)
+        if (selection2 > 4 || selection < 0)
         {
             Console.WriteLine("Please try again. Select an index between 0 and 4");
             Console.ReadLine();
