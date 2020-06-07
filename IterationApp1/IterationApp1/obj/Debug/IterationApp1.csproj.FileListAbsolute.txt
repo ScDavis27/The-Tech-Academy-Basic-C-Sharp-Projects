@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\IterationApp1\IterationApp1\bin\Debug\IterationApp1.exe.config
+C:\Users\Student\source\repos\IterationApp1\IterationApp1\bin\Debug\IterationApp1.exe
+C:\Users\Student\source\repos\IterationApp1\IterationApp1\bin\Debug\IterationApp1.pdb
+C:\Users\Student\source\repos\IterationApp1\IterationApp1\obj\Debug\IterationApp1.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\IterationApp1\IterationApp1\obj\Debug\IterationApp1.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\IterationApp1\IterationApp1\obj\Debug\IterationApp1.exe
+C:\Users\Student\source\repos\IterationApp1\IterationApp1\obj\Debug\IterationApp1.pdb
