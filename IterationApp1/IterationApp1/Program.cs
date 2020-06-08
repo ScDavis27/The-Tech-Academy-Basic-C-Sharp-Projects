@@ -57,40 +57,32 @@ class Program
             {
                 Console.WriteLine(userSearch1 + " IS found at index " + i);
             }
-            else if (userSearch1 != students[i])
+            else
             {
-                Console.WriteLine(userSearch1 + " is not found at index " + i);
+                Console.WriteLine(userSearch1 + " is NOT found at index " + i);
             }
         }
         Console.ReadLine();
 
 
-        List<string> moreNames = new List<string>() { "John", "Yolanda", "Ashanti", "Kenzie", "John" };
-        Console.WriteLine("Please type a name to search all students: ");
-        string userSearch2 = Console.ReadLine();
+        List<string> moreNames = new List<string>() { "John", "Yolanda", "Scott", "Ashanti", "Kenzie", "John", "Scott" };
+        List<string> nameAppearsTwice = new List<string>();
 
         foreach (string name in moreNames)
         {
-            Console.WriteLine("Student: " + name);
+            if (nameAppearsTwice.Contains(name))
+            {
+                Console.WriteLine(name + " has already appeard in list.");
+            }
+            else
+            {
+                nameAppearsTwice.Add(name);
+                Console.WriteLine(name);
+            }
         }
+        Console.WriteLine(nameAppearsTwice.Count);
         Console.ReadLine();
 
-
-
-
-
-
-
-        //int[] testScores = { 66, 99, 85, 70, 82, 34, 78, 90, 94 };
-
-        //for (int i = 0; i < testScores.Length; i++)
-        //{
-        //    if (testScores[i] <= 82)
-        //    {
-        //        Console.WriteLine("Failing test score: " + testScores[i]);
-        //    }
-        //}
-        //Console.ReadLine();
     }
 }
 
