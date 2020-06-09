@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\Assignment164\Assignment164\bin\Debug\Assignment164.exe.config
+C:\Users\Student\source\repos\Assignment164\Assignment164\bin\Debug\Assignment164.exe
+C:\Users\Student\source\repos\Assignment164\Assignment164\bin\Debug\Assignment164.pdb
+C:\Users\Student\source\repos\Assignment164\Assignment164\obj\Debug\Assignment164.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\Assignment164\Assignment164\obj\Debug\Assignment164.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\Assignment164\Assignment164\obj\Debug\Assignment164.exe
+C:\Users\Student\source\repos\Assignment164\Assignment164\obj\Debug\Assignment164.pdb
