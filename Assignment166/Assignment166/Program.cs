@@ -8,8 +8,9 @@ namespace Assignment166
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Class1 mathObject = new Class1();
             Console.WriteLine("Please enter an integer: ");
             string userInput = Console.ReadLine();
             int intOne = Convert.ToInt32(userInput);
@@ -17,7 +18,7 @@ namespace Assignment166
             string userInput2 = Console.ReadLine();
             int intTwo = Convert.ToInt32(userInput2);
 
-            Console.WriteLine(Class1.MyMethod(intOne, intTwo));
+            mathObject.MyMethod(intOne, intTwo);
             Console.ReadLine();
         }
     }

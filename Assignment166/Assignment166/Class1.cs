@@ -8,7 +8,7 @@ namespace Assignment166
 {
     class Class1
     {
-        public static void MyMethod(int intOne, int intTwo)
+        public void MyMethod(int intOne, int intTwo)
         {
             int result = intOne * 7;
             Console.WriteLine(intOne + " multiplied by 7 = " + result);
