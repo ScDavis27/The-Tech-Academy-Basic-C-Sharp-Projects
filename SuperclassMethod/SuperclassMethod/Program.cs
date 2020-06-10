@@ -10,7 +10,7 @@ namespace SuperclassMethod
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student", Id = 1 };
+            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
             
 
             employee.SayName();

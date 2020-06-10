@@ -13,7 +13,7 @@ namespace SuperclassMethod
 
         public void SayName()
         {
-            Console.WriteLine("Name: ", FirstName + LastName);
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
     }
 }
