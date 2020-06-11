@@ -16,16 +16,32 @@ namespace AbstractClass
             Console.WriteLine(firstName + " " + lastName + " Do you want to quit now?");
         }
 
-        public static Employee operator ==(Employee employee, Employee employee1)
+        public static bool operator ==(Employee employee, Employee employee1)
+        {
+            if (employee.Id == employee1.Id)
+            {
+                Console.WriteLine(employee + " and " + employee1 + " is the employee .");
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("These employees do not have the same Employee ID.");
+                return false;
+            }
+        }
+        public static bool operator !=(Employee employee, Employee employee1)
         {
             if (employee.Id != employee1.Id)
             {
-                Console.WriteLine(employee.Id + " and " + employee1.Id + " are two seperate employees");
+                Console.WriteLine("These employees do not have the same Employee ID.");
+                return false;
             }
             else
             {
                 Console.WriteLine("These employees have the same Employee ID.");
+                return true;
             }
         }
+
     }
 }

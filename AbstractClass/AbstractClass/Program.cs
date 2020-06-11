@@ -17,14 +17,22 @@ namespace AbstractClass
 
             IQuittable quittable = new Employee() { firstName = "Scott", lastName = "Davis", Id = 2 };
 
-
-
-
-            employee1.SayName();
             employee.SayName();
             quittable.Quit();
-            Console.ReadLine();  
+            Console.ReadLine();
+
+            string result = Convert.ToString(employee == employee1);
+            Console.WriteLine("Are these the same?");
+            Console.WriteLine(result);
+            Console.ReadLine();
+
+
+
+
+
+
         }
+
 
     }
 }
