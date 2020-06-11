@@ -7,41 +7,52 @@ using System.Threading.Tasks;
 
 namespace AbstractClass
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person/*, IQuittable*/
     {
         public int Id { get; set; }
+        public List<T> Things { get; set; }
 
-        public void Quit()
+        public void Print()
         {
-            Console.WriteLine(firstName + " " + lastName + " Do you want to quit now?");
+            foreach (T thing in Things)
+            {
+                Console.WriteLine(thing);
+                Console.ReadLine();
+            }
         }
 
-        public static bool operator ==(Employee employee, Employee employee1)
-        {
-            if (employee.Id == employee1.Id)
-            {
-                Console.WriteLine(employee + " and " + employee1 + " is the employee .");
-                return true;
-            }
-            else
-            {
-                Console.WriteLine("These employees do not have the same Employee ID.");
-                return false;
-            }
-        }
-        public static bool operator !=(Employee employee, Employee employee1)
-        {
-            if (employee.Id != employee1.Id)
-            {
-                Console.WriteLine("These employees do not have the same Employee ID.");
-                return false;
-            }
-            else
-            {
-                Console.WriteLine("These employees have the same Employee ID.");
-                return true;
-            }
-        }
+
+        //public void Quit()
+        //{
+        //    Console.WriteLine(firstName + " " + lastName + " Do you want to quit now?");
+        //}
+
+        //public static bool operator ==(Employee employee, Employee employee1)
+        //{
+        //    if (employee.Id == employee1.Id)
+        //    {
+        //        Console.WriteLine(employee + " and " + employee1 + " is the employee .");
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("These employees do not have the same Employee ID.");
+        //        return false;
+        //    }
+        //}
+        //public static bool operator !=(Employee employee, Employee employee1)
+        //{
+        //    if (employee.Id != employee1.Id)
+        //    {
+        //        Console.WriteLine("These employees have the same Employee ID.");
+        //        return false;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("These employees have the same Employee ID.");
+        //        return true;
+        //    }
+        //}
 
     }
 }
