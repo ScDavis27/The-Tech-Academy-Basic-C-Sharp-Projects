@@ -17,8 +17,8 @@ namespace AbstractClass
             foreach (T thing in Things)
             {
                 Console.WriteLine(thing);
-                Console.ReadLine();
             }
+            
         }
 
 
