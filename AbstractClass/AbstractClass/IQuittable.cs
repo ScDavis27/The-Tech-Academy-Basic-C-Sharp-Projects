@@ -10,4 +10,5 @@ namespace AbstractClass
     {
         void Quit();
     }
+
 }
