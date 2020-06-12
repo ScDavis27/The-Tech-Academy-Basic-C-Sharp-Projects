@@ -35,7 +35,9 @@ namespace LambdaExpressions
             employeeList.Add(employee10);
 
 
-            List<Employee> nameIsJoe = new List<Employee>();
+            List<Employee> nameIsJoe = new List<Employee>(); // New list that all the joes go into
+
+            // loop that adds any employee who's first name is Joe
             foreach (Employee employee in employeeList)
             {
                 if (employee.FirstName == "Joe")
@@ -44,19 +46,16 @@ namespace LambdaExpressions
                     //Console.WriteLine(nameIsJoe);
                 }
             }
-            Console.ReadLine();
+            
+            // Lambda function to find Joe in a list
+            List<Employee> theJoesFName = employeeList.Where(x => x.FirstName == "Joe").ToList();
 
-            List<Employee> newList = employeeList.Where(x => x.FirstName == "Joe").ToList();
-            foreach (Employee employee in newList)
-            {
-                Console.WriteLine(newList);
-            }
-            Console.ReadLine();
-
+            // Lambda function to find all employee ID's over 5
             List<Employee> employeeId = employeeList.Where(y => y.Id > 5).ToList();
-            foreach (Employee employee in employeeId)
+
+            foreach (Employee joe in theJoesFName)
             {
-                Console.WriteLine(employeeId);
+                Console.WriteLine(joe.FirstName + " " + joe.LastName + " Id: " + joe.Id);
             }
             Console.ReadLine();
         }
