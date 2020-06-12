@@ -8,7 +8,7 @@ namespace LambdaExpressions
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Employee employee1 = new Employee() { FirstName = "Joe", LastName = "Dirt", Id = 1 };
             Employee employee2 = new Employee() { FirstName = "Andrew", LastName = "Neidig", Id = 2 };
@@ -35,13 +35,13 @@ namespace LambdaExpressions
             employeeList.Add(employee10);
 
 
+            List<Employee> nameIsJoe = new List<Employee>();
             foreach (Employee employee in employeeList)
             {
                 if (employee.FirstName == "Joe")
                 {
-                    List<Employee> employeesNamedJoe = new List<Employee>();
-                    employeesNamedJoe.Add();
-                    Console.WriteLine();
+                    nameIsJoe.Add(employee);
+                    //Console.WriteLine(nameIsJoe);
                 }
             }
             Console.ReadLine();
