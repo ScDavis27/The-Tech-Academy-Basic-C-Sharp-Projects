@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\DateTime1\DateTime1\bin\Debug\DateTime1.exe.config
+C:\Users\Student\source\repos\DateTime1\DateTime1\bin\Debug\DateTime1.exe
+C:\Users\Student\source\repos\DateTime1\DateTime1\bin\Debug\DateTime1.pdb
+C:\Users\Student\source\repos\DateTime1\DateTime1\obj\Debug\DateTime1.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\DateTime1\DateTime1\obj\Debug\DateTime1.exe
+C:\Users\Student\source\repos\DateTime1\DateTime1\obj\Debug\DateTime1.pdb
+C:\Users\Student\source\repos\DateTime1\DateTime1\obj\Debug\DateTime1.csprojAssemblyReference.cache
