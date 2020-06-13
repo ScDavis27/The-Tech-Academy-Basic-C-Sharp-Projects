@@ -1,0 +1,7 @@
+C:\Users\Student\source\repos\GuessANumber\GuessANumber\bin\Debug\GuessANumber.exe.config
+C:\Users\Student\source\repos\GuessANumber\GuessANumber\bin\Debug\GuessANumber.exe
+C:\Users\Student\source\repos\GuessANumber\GuessANumber\bin\Debug\GuessANumber.pdb
+C:\Users\Student\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.exe
+C:\Users\Student\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.pdb
