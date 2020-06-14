@@ -16,11 +16,21 @@ namespace ExceptionHandling2
                 Console.WriteLine("What is your current age?");
                 string userAge = Console.ReadLine();
                 int age = Convert.ToInt32(userAge);
-                int months = age * 12;
+                
+                if (age <= 0)
+                {
+                    throw new ArgumentException("Age cannot be 0 or lower");
+                }
+
                 DateTime current = DateTime.Now;
-                DateTime yearBorn = current.AddMonths(-months);
+                DateTime yearBorn = current.AddYears(-age);
                 int year = yearBorn.Year;
                 Console.WriteLine("You were born in the year " + year);
+                Console.ReadLine();
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
                 Console.ReadLine();
             }
             catch (Exception)
