@@ -25,6 +25,8 @@ namespace ConstVar
         }
         public Employee(string name, int id)
         {
+            Name = name;
+            Id = id;
         }
 
 

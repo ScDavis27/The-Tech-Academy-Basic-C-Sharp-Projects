@@ -18,10 +18,10 @@ namespace ConstVar
             Console.WriteLine("Hello, {0}, my name is {1}, welcome to my program!", newPlayer, myName);
             Console.ReadLine();
 
-            Employee employee = new Employee("Johnny Jones", 7);
+            Employee employee = new Employee("Johnny Jones");
             
-            Console.WriteLine(employee.Name);
-            Console.WriteLine(employee.Id);
+            Console.WriteLine(employee.Name + " " + employee.Id);
+            
             Console.ReadLine();
 
             
