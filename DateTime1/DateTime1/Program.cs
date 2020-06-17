@@ -19,6 +19,7 @@ namespace DateTime1
             
             Console.WriteLine("In " + userInt + " hours, it will be " + futureTime);
             Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
